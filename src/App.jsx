@@ -6,7 +6,7 @@ import { MyPage, MyRecord, AboutHealth } from './pages'
 function App() {
 
   return (
-    <div>
+    <div className=''>
       <Router>
         <Navbar />
         <div className='md:px-[12%]'>
