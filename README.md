@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="./ys-logo-nobg.png" alt="logo" width="140"  height="auto" />
+  <img src="./logo-healthy.png" alt="logo" width="180"  height="auto" />
   <br/>
 
   <h3><b>Healthy app</b></h3>
@@ -50,16 +50,12 @@ This App allow users share their favorite youtube video.
 ### Front-end
 
 * [![React][React.js]][React-url]
-* [![Redux][redux.js]][Redux-url]
 * [![TailwindCSS][TailwindCSS]][tailwind-url]
 
 ### Development tools
 
 * [![Vite][Vite]][vite-url]
 
-### Deployment flatform
-
-* [![Render][Render]][render-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
