@@ -6,7 +6,7 @@ import { MyPage, MyRecord, AboutHealth } from './pages'
 function App() {
 
   return (
-    <div className=''>
+    <div className='flex flex-col justify-between'>
       <Router>
         <Navbar />
         <Routes>

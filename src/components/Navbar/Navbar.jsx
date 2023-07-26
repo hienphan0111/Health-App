@@ -74,7 +74,7 @@ function Navbar() {
           <div className={styles.menuItem}>
             <img src={info} alt="info" />
             <Link
-              to='#'
+              to='/myrecord'
               className={styles.menuLink}
             >
               お知らせ

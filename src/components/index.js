@@ -6,6 +6,8 @@ import Footer from './Footer/Footer';
 import SquareButton from './SquareButton/SquareButton';
 import HealthGraph from './HealthGraph/HealthGraph';
 import HexagonButton from './HexagonButton/HexagonButton';
+import SectionButton from './SectionButton/SectionButton';
+import MyExercises from './MyExercises/MyExercises';
 
 export {
   Navbar,
@@ -16,4 +18,6 @@ export {
   SquareButton,
   HealthGraph,
   HexagonButton,
+  SectionButton,
+  MyExercises,
 };
