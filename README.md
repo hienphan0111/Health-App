@@ -55,8 +55,6 @@ This App allow users share their favorite youtube video.
 
 ### Development tools
 
-* [![Docker][docker]][docker-url]
-* [![PostMan][postman]][postman-url]
 * [![Vite][Vite]][vite-url]
 
 ### Deployment flatform
@@ -64,10 +62,6 @@ This App allow users share their favorite youtube video.
 * [![Render][Render]][render-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-To see the demo version, you can [Clik here](https://youtube-sharing-l4x6.onrender.com/)
-- Want to try admin features, use below account:
 
 
 <!-- GETTING STARTED -->
@@ -105,10 +99,10 @@ To get a local copy up and running, follow these steps.
   cd health-app
 ```
 
-To run the front, execute the following command:
+To run the front end, execute the following command:
 
 ```bash
-  npm dev
+  npm run dev
 ```
 
 <!-- 
@@ -168,7 +162,7 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+<!-- To run tests, run the following command:
 
 
 navigate to client folder:
@@ -176,7 +170,7 @@ navigate to client folder:
 ```sh
   npm run test
 ```
--
+- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

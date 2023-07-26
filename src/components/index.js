@@ -8,6 +8,8 @@ import HealthGraph from './HealthGraph/HealthGraph';
 import HexagonButton from './HexagonButton/HexagonButton';
 import SectionButton from './SectionButton/SectionButton';
 import MyExercises from './MyExercises/MyExercises';
+import DiaryCard from './DiaryCard/DiaryCard';
+import Diary from './Diary/Diary';
 
 export {
   Navbar,
@@ -20,4 +22,6 @@ export {
   HexagonButton,
   SectionButton,
   MyExercises,
+  DiaryCard,
+  Diary,
 };

@@ -9,7 +9,7 @@ const MyExercises = () => {
         <h1>My Exercises</h1>
         <span>2021.05.21</span>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 w-full divide-y gap-x-5 max-h-52 overflow-auto'>
+      <div className='grid grid-cols-1 md:grid-cols-2 w-full divide-y gap-x-10 px-5 max-h-52 overflow-auto'>
         {
           myExercises.map((item) => (
             <div key={item.id} className='flex justify-between w-full font-jp pt-5'>

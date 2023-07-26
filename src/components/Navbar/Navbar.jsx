@@ -12,12 +12,12 @@ const bgMenu = [
   {
     id: 1,
     name: '自分の記録',
-    link: '#',
+    link: '/myrecord',
   },
   {
     id: 2,
     name: '体重グラフ',
-    link: '/mypage',
+    link: '#',
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const bgMenu = [
   {
     id: 5,
     name: 'コラム一覧',
-    link: '#',
+    link: '/about-health',
   },
   {
     id: 6,
@@ -47,7 +47,9 @@ function Navbar() {
   return (
     <nav className='w-full flex items-center justify-between flex-wrap py-3 px-[12%] bg-dark-500'>
       <div className='flex items-center flex-shrink-0 text-white mr-6 lg:mr-72'>
-        <img src={logo} className='w-100 h-10 mr-2' alt='Logo' />
+        <Link to='/mypage'>
+          <img src={logo} className='w-100 h-10 mr-2' alt='Logo' />
+        </Link>
       </div>
 
       <div
@@ -55,17 +57,17 @@ function Navbar() {
         <div className='font-jp text-sm lg:flex-grow flex gap-10'>
           <div className={styles.menuItem}>
             <img src={memo} alt="memo" />
-            <a
-              href='#'
+            <Link
+              to='/myrecord'
               className={styles.menuLink}
             >
               自分の記録
-            </a>
+            </Link>
           </div>
           <div className={styles.menuItem}>
             <img src={challenge} alt="challenge" />
             <Link
-              to='/mypage'
+              to='#'
               className={styles.menuLink}
             >
               チャレンジ
@@ -74,7 +76,7 @@ function Navbar() {
           <div className={styles.menuItem}>
             <img src={info} alt="info" />
             <Link
-              to='/myrecord'
+              to='#'
               className={styles.menuLink}
             >
               お知らせ
@@ -94,11 +96,11 @@ function Navbar() {
           <IoMdClose className={`text-light text-xl ${isOpen ? 'block' : 'hidden'}`} />
         </button>
         {isOpen ? (
-          <div className='absolute bg-dark-500 w-[280px] right-0 font-jp'>
+          <div className='absolute bg-dark-500 w-[280px] right-0 font-jp z-10'>
             <ul className='grid grid-cols-1 divide-y divide-gray/80'>
               {
                 bgMenu.map((item) => (
-                  <li key={item.id} className={styles.bgMenuItem}><Link>{item.name}</Link></li>
+                  <li key={item.id} className={styles.bgMenuItem}><Link to={item.link}>{item.name}</Link></li>
                 ))
               }
             </ul>

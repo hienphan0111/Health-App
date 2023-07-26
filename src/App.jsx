@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import { Navbar, Footer } from './components'
 import { MyPage, MyRecord, AboutHealth } from './pages'
@@ -13,6 +13,7 @@ function App() {
           <Route path="/" element={<AboutHealth />} />
           <Route path="/myrecord" element={<MyRecord />} />
           <Route path="/mypage" element={<MyPage />} />
+          <Route path="/about-health" element={<AboutHealth />} />
         </Routes>
         <Footer />
       </Router>

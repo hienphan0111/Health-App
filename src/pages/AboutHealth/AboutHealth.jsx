@@ -45,7 +45,9 @@ const AboutHealth = () => {
           ))
         }
       </div>
-      <Button handleClick={() => {}} text='コラムをもっと見る' />
+      <div className='py-10'>
+        <Button handleClick={() => {}} text='コラムをもっと見る' />
+      </div>
     </div>
   )
 }
