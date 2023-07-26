@@ -34,7 +34,7 @@ const footerItems = [
 ]
 const Footer = () => {
   return (
-    <div className="bg-dark-500 px-[12%] py-10 fixed max-w-[1280px] bottom-0 w-full font-jb text-xs">
+    <div className="bg-dark-500 px-[12%] py-10 max-w-[1280px] bottom-0 w-full font-jb text-xs">
       <ul className="flex justify-start gap-10 items-start">
         {
           footerItems.map((item) => (

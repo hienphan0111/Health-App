@@ -17,7 +17,7 @@ const bgMenu = [
   {
     id: 2,
     name: '体重グラフ',
-    link: '#',
+    link: '/mypage',
   },
   {
     id: 3,
@@ -64,21 +64,21 @@ function Navbar() {
           </div>
           <div className={styles.menuItem}>
             <img src={challenge} alt="challenge" />
-            <a
-              href='#'
+            <Link
+              to='/mypage'
               className={styles.menuLink}
             >
               チャレンジ
-            </a>
+            </Link>
           </div>
           <div className={styles.menuItem}>
             <img src={info} alt="info" />
-            <a
-              href='#'
+            <Link
+              to='#'
               className={styles.menuLink}
             >
               お知らせ
-            </a>
+            </Link>
           </div>
         </div>
       </div>

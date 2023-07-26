@@ -9,13 +9,11 @@ function App() {
     <div className=''>
       <Router>
         <Navbar />
-        <div className='md:px-[12%]'>
-          <Routes>
-            <Route path="/" element={<AboutHealth />} />
-            <Route path="/myrecord" element={<MyRecord />} />
-            <Route path="/mypage" element={<MyPage />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<AboutHealth />} />
+          <Route path="/myrecord" element={<MyRecord />} />
+          <Route path="/mypage" element={<MyPage />} />
+        </Routes>
         <Footer />
       </Router>
     </div>

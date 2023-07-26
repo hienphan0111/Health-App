@@ -26,7 +26,7 @@ const menu = [
 
 const AboutHealth = () => {
   return (
-    <div className=''>
+    <div className='mx-[12%]'>
       <div className='grid grid-cols-1 md:grid-cols-4 gap-3 my-16'>
         {
           menu.map((item) => (
